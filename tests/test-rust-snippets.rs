@@ -4,8 +4,6 @@ use vscode_generator::{ SnippetsFile, Snippet };
 #[test]
 #[cfg(feature = "rust")]
 fn rust_snippets() {
-    // 1. TODO: Создать шаблоны: let, let mut, static, const, use, mod {}, mod, mod use, mod tests 
-
     // generating snippets:
     let snippets = SnippetsFile::new(vec![
         // text:
