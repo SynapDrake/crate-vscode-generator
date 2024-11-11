@@ -1,0 +1,21 @@
+[package]
+name = "vscode-generator"
+description = "A powerful VSCode snippets generator with support for multiple languages. Create, manage and share your code snippets effortlessly."
+version = "0.2.0"
+edition = "2021"
+authors = ["SynapDrake <t.me/SynapDrake>"]
+license = "MIT"
+repository = "https://github.com/SynapDrake/crate-add-macro"
+documentation = "https://docs.rs/vscode-generator"
+readme = "README.md"
+keywords = ["vscode", "generator", "snippets", "development-tools", "productivity"]
+categories = ["development-tools", "development-tools::build-utils"]
+exclude = ["/.github", "/.gitignore", "/tests", "/.vscode"]
+
+[dependencies]
+fastrand = "2.2.0"
+serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
+
+[features]
+rust = []
