@@ -106,7 +106,7 @@ use serde::Serialize;
 /// 
 /// #### See Also
 /// 
-/// - 🔗 Structure [`SnippetFile`](super::SnippetFile) - For more flexible snippet construction
+/// - 🔗 Structure [`SnippetFile`](../snippets_file/struct.SnippetsFile.html) - For more flexible snippet construction
 /// - 🔗 VS Code [Snippet Guide](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 #[derive(Debug, Clone, PartialEq, Serialize)]
 pub struct Snippet {
